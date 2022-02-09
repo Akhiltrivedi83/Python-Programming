@@ -1,0 +1,24 @@
+//USING WHILE LOOP:
+
+print("Enter the number to calculate factorial:")
+x=int(input())
+factorial=1
+i=1
+while i<=x:
+    factorial=factorial*i
+    i+=1
+print(factorial)
+
+
+
+
+
+//USING FOR LOOP:
+
+print("Enter the number you want to calculate the factorial: ")
+x=int(input())
+factorial=1
+for i in range(1,x+1):
+    factorial=factorial*i
+print("The factorial of",x,"is",factorial)
+
