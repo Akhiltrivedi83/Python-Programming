@@ -1,0 +1,20 @@
+import math
+print("Enter the number")
+n=int(input())
+count=0
+temp=n
+b=temp
+m=0
+while(n>0):
+    n=n//10
+    count+=1
+#print(count)
+while(temp>0):
+    r=temp%10
+    m+=pow(r,count)
+    temp=temp//10
+#print(m)
+if(m==b):
+    print("It is Armstrong")
+else:
+    print("It is not Armstrong Number")
